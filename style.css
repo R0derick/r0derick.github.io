@@ -1,4 +1,13 @@
 body{
-	background-color: #a6a6a6;
+	background-color: #505050;
 	color: #FFF;
+}
+
+.articulo{
+	background-color: #414141;
+	color: #FFF;
+}
+
+.articulo i{
+	color: #2ECC71;
 }
