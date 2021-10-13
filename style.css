@@ -8,5 +8,6 @@ body{
 }
 
 .cmd{
-	color: #FF0000;
+	background-color: #FF0000;
+	color: #FFFFFF
 }
