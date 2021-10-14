@@ -42,8 +42,8 @@
         <b>Explotación: </b><i>puertos y servicios</i>
         <p>
           Escaneo de puertos abiertos: <i>nmap -p- --open -T5 -v -n 10.10.10.10 -oG allPorts</i><br>
-          Escaneo de puertos abiertos mas rápido: <i>nmap -p- -sS --min-rate 5000 --open -vvv -n -Pn 10.10.10.10 -oG allPorts</i><br>
-          Escaneo de servicios y versiones: <i>nmap -sCV -p22,80,443 10.10.10.10 -oN targeted</i><br>
+          Escaneo de puertos abiertos mas rápido: <i>nmap -p- -sS --min-rate 5000 --open -vvv -n -Pn 10.10.10.10 -oG ports</i><br>
+          Escaneo de servicios y versiones: <i>nmap -sCV -p22,80,443 10.10.10.10 -oN services</i><br>
         </p>
         <img src="http://imgfz.com/i/O4Myxdr.png">
       </p>
